@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49537d3-1af2-4b73-9496-7bcb732a33a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/StarbuzzCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/hpbook/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/ConcreteBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/proxy/protectionproxy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/decorator/revised" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -54,11 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\IntelliJ\DPCourse\src\decorator\revised" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\proxy\protectionproxy" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\proxy" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\template" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\observer\observable\pull" />
-      <recent name="C:\Workspace\IntelliJ\DPCourse\src\observer\observable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\IntelliJ\DPCourse\src" />
@@ -67,20 +68,7 @@
       <recent name="singleton.threadsafe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StarbuzzCoffee">
-    <configuration name="BeverageTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="template.BeverageTestDrive" />
-      <module name="DPCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StarbuzzCoffee (1)">
     <configuration name="ImageProxyTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proxy.virtualproxy.ImageProxyTestDrive" />
       <module name="DPCourse" />
@@ -120,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarbuzzCoffee (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.revised.StarbuzzCoffee" />
+      <module name="DPCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.revised.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="decorator.hpbook.StarbuzzCoffee" />
       <module name="DPCourse" />
@@ -147,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeverageTestDrive" />
       <item itemvalue="Application.ImageProxyTestDrive" />
       <item itemvalue="Application.MatchMakingTestDrive" />
       <item itemvalue="Application.MatchMakingTestDrive (1)" />
       <item itemvalue="Application.StarbuzzCoffee" />
+      <item itemvalue="Application.StarbuzzCoffee (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarbuzzCoffee (1)" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.MatchMakingTestDrive" />
         <item itemvalue="Application.MatchMakingTestDrive (1)" />
         <item itemvalue="Application.ImageProxyTestDrive" />
-        <item itemvalue="Application.BeverageTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +192,15 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
