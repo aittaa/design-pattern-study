@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49537d3-1af2-4b73-9496-7bcb732a33a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/ConcreteBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/StarbuzzCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorator/revised/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/io/InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/io/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/io/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +34,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/decorator/revised" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/decorator/io" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -55,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\IntelliJ\DPCourse\src\decorator\io" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\decorator\revised" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\proxy\protectionproxy" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\proxy" />
       <recent name="C:\Workspace\IntelliJ\DPCourse\src\template" />
-      <recent name="C:\Workspace\IntelliJ\DPCourse\src\observer\observable\pull" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\IntelliJ\DPCourse\src" />
@@ -68,13 +60,13 @@
       <recent name="singleton.threadsafe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StarbuzzCoffee (1)">
-    <configuration name="ImageProxyTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.virtualproxy.ImageProxyTestDrive" />
+  <component name="RunManager" selected="Application.InputTest">
+    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.io.InputTest" />
       <module name="DPCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.virtualproxy.*" />
+          <option name="PATTERN" value="decorator.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ImageProxyTestDrive" />
       <item itemvalue="Application.MatchMakingTestDrive" />
       <item itemvalue="Application.MatchMakingTestDrive (1)" />
       <item itemvalue="Application.StarbuzzCoffee" />
       <item itemvalue="Application.StarbuzzCoffee (1)" />
+      <item itemvalue="Application.InputTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputTest" />
         <item itemvalue="Application.StarbuzzCoffee (1)" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.MatchMakingTestDrive" />
         <item itemvalue="Application.MatchMakingTestDrive (1)" />
-        <item itemvalue="Application.ImageProxyTestDrive" />
       </list>
     </recent_temporary>
   </component>
